@@ -1,0 +1,36 @@
+.navbar-brand h3 {
+  display: inline-block;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.navbar {
+  background-image:linear-gradient(to top, rgb(8, 9, 19) 0%, #0a1f7a 100%);
+  font: 20px Lora, Serif;
+}
+
+.main{
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-left: 1rem;
+  display: inline;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+#bgwhite {
+  color: whitesmoke;
+}
+
+@media screen and (max-width:500px) {
+  .main{
+    font-weight: bolder;
+    font-size: large;
+  }
+}
